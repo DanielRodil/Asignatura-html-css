@@ -1,0 +1,14 @@
+.container {
+    column-width: 200px;
+    background-color: aquamarine;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "head head" "menu menu" "foot foot";
+}
+
+.a { grid-area: head; background: blue }
+.b { grid-area: menu; background: red }
+.c { grid-area: main; background: green }
+.d { grid-area: foot; background: orange }
